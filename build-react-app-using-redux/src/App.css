@@ -37,7 +37,7 @@
 
 .button-submit {
   display:inline-block;
-  padding:0.5em 3em;
+  padding:0.8em 3em;
   border:0.16em solid #FFFFFF;
   margin:0 0.3em 0.3em 0;
   box-sizing: border-box;
@@ -48,15 +48,53 @@
   color:rgb(46, 36, 36);
   text-align:center;
   transition: all 0.15s;
-  }
-  .button-submit:hover{
-    color:#110d0d;
-    border-color:#c2c1c1;
-  } 
-  .button-submit:active{
-    color:#c2c1c1;
-    border-color:#c2c1c1;
-    }
+}
+
+.button-submit:hover{
+  color:#110d0d;
+  border-color:#c2c1c1;
+}
+
+.button-submit:active{
+  color:#c2c1c1;
+  border-color:#c2c1c1;
+}
+
+input[type=text], select {
+  width: 20%;
+  padding: 12px 20px; 
+  background: transparent;
+  color: white;
+  margin: 8px 0;
+  margin-right: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; 
+}
+
+input[type=submit] {
+	display: inline-block;
+	padding: 10px 14px;
+	color: #FFF;
+	border: 1px solid #FFF;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 120%;
+	background-color: rgba(255,255,255, 0);
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-transition: background-color 300ms ease;
+	-moz-transition: background-color 300ms ease;
+	transition: background-color 300ms ease;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(255,255,255, 0.3);
+	color: #FFF;
+}  
 
 .footer{
   text-align: center;

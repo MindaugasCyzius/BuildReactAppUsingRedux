@@ -29,11 +29,11 @@ class Form extends React.Component {
     render() {
       return (
         <form onSubmit={this.handleSubmit}>
-          <label>
-            Insert number value that contains from 1 to 10 symbols:<br></br>
-            <input type="text" value={this.state.value} onChange={this.onChange}/>
-          </label>
-          <button class="button-submit" disabled ={!this.state.value} value="Submit">Submit</button>
+            <label>
+                Insert number value that contains from 1 to 10 symbols:<br></br>
+            </label>
+            <input type="text" placeholder="Insert numeric value.." value={this.state.value} onChange={this.onChange} /> 
+            <input type="submit" disabled ={!this.state.value} value="Submit"/>
         </form>
       );
     }
