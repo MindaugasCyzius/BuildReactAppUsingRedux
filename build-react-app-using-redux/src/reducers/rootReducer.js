@@ -1,6 +1,12 @@
 import { combineReducers } from 'redux';
-import reducers from './reducers';
+import facility from './facilityReducer';
+import exposure from './exposureReducer';
+import person from './personReducer'; 
 
-export default combineReducers({
-    reducers
+const rootReducer = combineReducers({ 
+    person,
+    facility,
+    exposure
 });
+
+export default rootReducer;
