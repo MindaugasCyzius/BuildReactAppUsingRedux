@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### `create-react-app build-react-app-using-redux`
 
-3. Then setup Redux: redux, react-redux, and redux-thunk packages.
+3.Then setup Redux: redux, react-redux, and redux-thunk packages.
 
 ### `npm install redux react-redux redux-thunk --save`
 
