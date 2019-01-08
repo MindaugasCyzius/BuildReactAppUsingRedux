@@ -5,6 +5,7 @@ import './App.css';
 import { personAction } from './actions/personAction';
 import { facilityAction } from './actions/facilityAction';
 import { exposureAction } from './actions/exposureAction';
+import NumericValuesSubmitForm from './components/NumericValuesSubmitForm';
 
 class App extends Component {
 
@@ -40,6 +41,9 @@ class App extends Component {
             </pre>
           </p>
         </header>
+        <body>
+          <NumericValuesSubmitForm></NumericValuesSubmitForm>
+        </body>
       </div>
     );
   }
