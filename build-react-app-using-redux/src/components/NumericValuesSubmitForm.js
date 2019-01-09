@@ -68,21 +68,20 @@ class FormValuesSubmitForm extends React.Component {
     render() {
       return (
         <form onSubmit={this.handleSubmit}>
-            <label>
-                Insert number value that contains from 1 to 10 symbols:<br></br>
-            </label>
-            <input type="text" placeholder="Insert numeric value.." value={this.state.value} onChange={this.onChange} /> 
-            <input type="submit" disabled ={!this.state.value} onClick={this.exposureAction} value="Submit"/>
-            <pre>
-              {JSON.stringify(this.props)}
-            </pre>
+        <label>
+          Insert number value that contains from 1 to 10 symbols:<br></br>
+        </label>
+          <input type="text" placeholder="Insert numeric value.." value={this.state.value} onChange={this.onChange} /> 
+          <input type="submit" disabled ={!this.state.value} onClick={this.exposureAction} value="Submit"/>
+          <pre>
+            {JSON.stringify(this.props)}
+          </pre>
         </form>
       );
     }
   }
   
-  function mapStateToProps(state) {
- 
+  function mapStateToProps(state) { 
     return { person: state.person, facility: state.facility, exposure: state.exposure };
 }
   

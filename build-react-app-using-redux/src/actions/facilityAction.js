@@ -2,10 +2,10 @@ import MockApi from "../api/MockApi";
 
 export const facilityAction = () => dispatch => {
     dispatch({
-     type: 'FACILITY_VALUE_ACTION',
-     facility: 'val3 = 4 val4 = 5'
+        type: 'FACILITY_VALUE_ACTION',
+        facility: 'val3 = 4 val4 = 5'
     })
-   }
+}
 
 
 export function loadFacility(val1) {

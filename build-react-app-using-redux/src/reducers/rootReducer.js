@@ -6,7 +6,7 @@ import person from './personReducer';
 const rootReducer = combineReducers({ 
     person,
     facility,
-    exposure
+    exposure 
 });
 
 export default rootReducer;

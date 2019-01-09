@@ -6,7 +6,6 @@ export default function exposureReducer(state = initialState.exposure, action) {
             return {
                 result: action.exposure
             }
-
         default:  
             return state;
     }
